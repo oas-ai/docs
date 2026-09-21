@@ -6,5 +6,7 @@ on:
 permissions:
   contents: read
 jobs:
+  license:
+    uses: oas-ai/.github/.github/workflows/license-check.yml@main
   docs:
     uses: oas-ai/.github/.github/workflows/docs-ci.yml@main
