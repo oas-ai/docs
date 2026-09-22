@@ -8,7 +8,7 @@ Manufacturer Adapter는 DBC decoder의 OEM-specific `DecodedCanMessage`를 OAS C
 DecodedCanMessage → Manufacturer Adapter → VehicleState → Application
 ```
 
-Adapter 구현은 `manufacturer/platform` 단위로 분리한다. 초기 Reference Vehicle은 `GENESIS_RG3`이지만, 실제 signal mapping은 검증된 DBC와 CAN log가 확보된 뒤에만 추가한다.
+Adapter 구현은 `manufacturer/platform` 단위로 분리한다. 초기 Reference Vehicle은 `HYUNDAI_PALISADE`이지만, 실제 signal mapping은 검증된 DBC와 CAN log가 확보된 뒤에만 추가한다.
 
 ## 인터페이스 초안
 
